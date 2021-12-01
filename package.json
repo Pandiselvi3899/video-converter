@@ -1,0 +1,20 @@
+{
+  "name": "video-converter",
+  "version": "1.0.0",
+  "description": "convert mp4 videos to hls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "RamanGiri",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "electron": "^12.0.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "is-valid-path": "^0.1.1",
+    "nodeman": "^1.1.2",
+    "randomstring": "^1.1.5"
+  }
+}
